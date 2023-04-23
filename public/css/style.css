@@ -1,0 +1,260 @@
+:root{
+    --background: #fff;
+      --text-color: #222831;
+      --profile-cover: #fff;
+      --text-color2: #2c3d4f;
+      --text-box: rgba(34,40,49,.1);
+      --vd-control-bar: #f1f1f1;
+      --avatar: #f3912e;
+      --select-cont: rgba(34,40,49,.2);
+      --progress-color: rgba(34,40,49,.2);
+      --brand-color: #f3912e;
+      --brand-color-text: hsla(0,0%,100%,.95);
+      --brand-color-shade: rgba(243,145,46,.1);
+      --second-white: #f2f5fa;
+      --border-color: rgba(10,30,50,.1);
+      --shadow1: 0 0 12px rgba(10,30,50,.15);
+      --shadow2: 0 0 15px rgba(10,30,50,.2);
+      --shadow3: 0 0 20px rgba(10,30,50,.25);
+      --card-normal: #fff9f3;
+      --card-shadow: 0 0 8px rgba(10,30,50,.1);
+      --card-shadow-hover: 0 5px 16px rgba(10,30,50,.15);
+      --heading: rgba(8,15,15,.85);
+      --sub-heading: rgba(8,15,15,.7);
+      --paragraph: rgba(8,15,15,.75);
+      --second-button: rgba(8,15,15,.85);
+      --second-button-text: hsla(0,0%,100%,.95);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+  
+
+.login-form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sm-right-side {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: var(--shadow2);
+    /* flex: 1 1; */
+    max-height: 100%;
+    padding: 40px;
+    width: 50%;
+    top: 10%;
+    position: absolute;
+}
+  
+.sm-header {
+      color: #2c3d4f;
+      display: flex;
+      font-size: 24px;
+      font-weight: 550;
+      justify-content: space-between;
+      line-height: 50px;
+}
+  
+  .auth-content {
+      align-items: center;
+      border-radius: 1rem;
+      display: flex;
+      flex: 1 1;
+      flex-direction: column;
+      height: calc(100% - 50px);
+      justify-content: center;
+      padding-top: 10px;
+  }
+  
+  .auth-content-container {
+      border-radius: 1rem;
+      overflow-x: hidden;
+      overflow-y: auto;
+      width: 100%;
+  }
+  
+  .auth-logo {
+      align-items: center;
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+  }
+  
+ 
+  .nav-logo {
+      height: 30px;
+      width: 30px;
+  }
+  .auth-logo h1 {
+      font-size: 25px;
+  }
+  
+
+  .nav-title {
+      color: #222831;
+      font-size: 15px;
+      font-weight: var(--fw-bold);
+      padding-left: 3px;
+  }
+  .auth-welcome {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 1rem;
+      text-align: center;
+  }
+  .auth-welcome h2 {
+      color:rgba(8,15,15,.85);
+      font-size: 18px;
+      margin-bottom: 0;
+  }
+  .auth-welcome p {
+      color: rgba(8,15,15,.75);
+      margin-top: 5px;
+  }
+  
+
+  
+  .sm-form {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-top: 1rem;
+      max-height: auto;
+      width: 100%;
+  }
+  
+  .sm-row {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 95%;
+  }
+  
+
+  .sm-login-error, .sm-register-error {
+      display: flex;
+      height: auto;
+      width: 95%;
+  }
+
+  .sm-input-box {
+      background: rgba(34,40,49,.1);
+      border: 1px solid rgba(10,30,50,.1);
+      border-radius: 13px;
+      box-sizing: border-box;
+      color: var(--text-color2);
+      display: flex;
+      font-size: 15px;
+      font-weight: 550;
+      height: 45px;
+      line-height: 1.5;
+      margin: 5px auto;
+      padding: 0 10px;
+      width: 100%;
+  }
+  
+  .sm-input-password {
+      align-items: center;
+      display: flex;
+      margin: 0 auto;
+      position: relative;
+      width: 100%;
+  }
+  
+
+  .sm-input-box {
+      background: var(--text-box);
+      border: 1px solid var(--border-color);
+      border-radius: 13px;
+      box-sizing: border-box;
+      color: var(--text-color2);
+      display: flex;
+      font-size: 15px;
+      font-weight: 550;
+      height: 45px;
+      line-height: 1.5;
+      margin: 5px auto;
+      padding: 0 10px;
+      width: 100%;
+  }
+  
+  .sm-eye-icon {
+      cursor: pointer;
+      display: flex;
+      height: 30px;
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 30px;
+  }
+  .sm-extra-row {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+  }
+  
+
+  
+  .sm-forget-password {
+      color: var(--sidebar-tab-active);
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 1.5;
+      padding: 2px 0;
+      -webkit-user-select: none;
+      user-select: none;
+  }
+  
+
+  
+  .sm-disabled {
+      cursor: not-allowed!important;
+      opacity: .5;
+  }
+  .sm-login-btn {
+      align-items: center;
+      background: #f3912e;
+      border: none;
+      border-radius: 12px;
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      height: 40px;
+      justify-content: center;
+      margin: 5px 0;
+      opacity: 1;
+      width: 95%;
+  }
+  
+
+  .sm-bottom-row {
+      align-items: center;
+      display: flex;
+      gap: 2px;
+      justify-content: center;
+      margin: 10px 0;
+      width: 100%;
+  }
+  
+
+  
+  .sm-not-account-text {
+      color: var(--text-color);
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: -.33px;
+      line-height: 34px;
+  }
+  
